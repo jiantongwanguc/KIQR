@@ -25,10 +25,10 @@ KIQR is particularly useful when interest lies in modeling specific conditional 
 
 - `R/`: Core implementation files (API, loss and penalty functions, solvers, tuning criteria, and utilities)
 - `paper_simulations/`: Simulation scripts for the numerical studies
-  - `simulation_exp1_n200p1500_*.R`
-  - `simulation_exp1_n200p1500_t*.R`
-  - `simulation_exp2_n200p1500_*.R`
-  - `simulation_mimic_n250_rho0*.R`
+  - `simulation_exp1_n200p1500_norm.R`
+  - `simulation_exp1_n200p1500_t3.R`
+  - `simulation_exp2_n200p1500_heterX.R`
+  - `simulation_mimic_n250_rho0_error06.R`
 - `compile_scripts/`: Scripts to run simulations and compile results
   - `compile_res_exp1.R`
   - `compile_res_mimic.R`
@@ -39,11 +39,11 @@ KIQR is particularly useful when interest lies in modeling specific conditional 
 
 ### Install Dependencies
 
-Install the required R packages:
+Install the required R packages (for simulations):
 
 ```r
-install.packages(c("quantreg", "glmnet", "Matrix", "foreach", "doParallel", 
-                   "doRNG", "ggplot2", "dplyr"))
+install.packages(c("quantreg", "glmnet", "Matrix", "foreach", "doParallel", "rqPen",
+                   ,"mvtnorm", "MASS", "ggplot2", "dplyr"))
 ```
 
 ## License
