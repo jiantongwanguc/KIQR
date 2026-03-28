@@ -33,7 +33,7 @@ KIQR is particularly useful when interest lies in modeling specific conditional 
   - `compile_res_exp1.R`
   - `compile_res_mimic.R`
   - `generate_table_for_exp2.R`
-- `Rdata/`: Intermediate results and simulation outputs (excluded via `.gitignore`)
+- `Rdata/`: Intermediate results and simulation outputs (for result replication).
 
 ## How to Use
 
