@@ -23,23 +23,28 @@ KIQR is particularly useful when interest lies in modeling specific conditional 
 
 ## Repository Structure
 
-KIQR/
-├── R/                          # Core functions
+.
+├── R/
 │   ├── kiqr_api.R
 │   ├── loss_penalty_functions.R
 │   ├── plasso.R
 │   ├── solvers.R
 │   ├── tuning_criteria.R
 │   └── utils.R
-├── paper_simulations/          # Scripts for simulation studies
-├── Rdata/                      # Intermediate results and simulation data
-├── compile_scripts/            # Scripts to compile results, tables, and figures
-│   ├── compile_res_exp1.R
-│   ├── compile_res_mimic.R
-│   ├── generate_table_for_exp2.R
-│   ├── simulation_exp1_n200p1500_.R
-│   └── simulation_mimic_.R
-└── README.md
+└── paper_simulations/
+    ├── Rdata/
+    │   ├── mimic_simulation_results_lo...
+    │   ├── simulation_results_final_n20...
+    │   ├── simulation_results_final_n20...
+    │   └── simulation_results_final_n20...
+    └── compile_scripts/
+        ├── compile_res_exp1.R
+        ├── compile_res_mimic.R
+        ├── generate_table_for_exp2.R
+        ├── simulation_exp1_n200p1500_...
+        ├── simulation_exp1_n200p1500_t...
+        ├── simulation_exp2_n200p1500_...
+        └── simulation_mimic_n250_rho0...
 
 
 ## How to Use
