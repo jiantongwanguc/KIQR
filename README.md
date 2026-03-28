@@ -22,8 +22,7 @@ KIQR is particularly useful when interest lies in modeling specific conditional 
 - Extensive numerical simulations for performance evaluation
 
 ## Repository Structure
-
-.
+```text
 ├── R/
 │   ├── kiqr_api.R
 │   ├── loss_penalty_functions.R
@@ -45,7 +44,7 @@ KIQR is particularly useful when interest lies in modeling specific conditional 
         ├── simulation_exp1_n200p1500_t...
         ├── simulation_exp2_n200p1500_...
         └── simulation_mimic_n250_rho0...
-
+```
 
 ## How to Use
 
