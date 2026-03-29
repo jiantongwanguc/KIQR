@@ -28,10 +28,8 @@ KIQR is particularly useful when interest lies in modeling specific conditional 
   - `simulation_exp1_n200p1500_norm.R`
   - `simulation_exp1_n200p1500_t3.R`
   - `simulation_exp2_n200p1500_heterX.R`
-  - `simulation_mimic_n250_rho0_error06.R`
 - `compile_scripts/`: Scripts to run simulations and compile results
   - `compile_res_exp1.R`
-  - `compile_res_mimic.R`
   - `generate_table_for_exp2.R`
 - `Rdata/`: Intermediate results and simulation outputs (for result replication).
 
