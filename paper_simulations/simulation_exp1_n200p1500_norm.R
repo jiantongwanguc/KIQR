@@ -51,7 +51,7 @@ sim_params <- list(
 )
 
 run_config <- list(
-  taus = c(0.5, 0.8, 0.9),
+  taus = c(0.5, 0.8),
   lambda_grid = seq(0.01, 0.2, length.out = 20),
   zeta_grid = seq(0, 1, length.out = 11)
 )
@@ -81,9 +81,9 @@ priors <- list(
 )
 priors$S1[1:20] <- 0                                     # 20 correct variables
 priors$S2[c(1:10, (sim_params$p - 1):sim_params$p)] <- 0 # 10 correct, 2 wrong
-priors$S3[c(1:10, (sim_params$p - 4):sim_params$p)] <- 0 # 10 correct, 5 wrong
+priors$S6[c(1:10, (sim_params$p - 4):sim_params$p)] <- 0 # 10 correct, 5 wrong
 priors$S4[(sim_params$p - 19):sim_params$p] <- 0         # 20 wrong, last 20
-priors$S6[16:35] <- 0                                    # 5 correct, 15 wrong
+priors$S3[16:35] <- 0                                    # 5 correct, 15 wrong
 
 
 # --- 5. RUN SIMULATIONS ----
